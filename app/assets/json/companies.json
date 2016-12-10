@@ -1,0 +1,16 @@
+{
+   "data": [
+       {
+           "name": "Google",
+           "id": "1",
+           "distance_cycled": 12203.54,
+           "last_journey": "2016-07-22T10:34:02"
+       },
+       {
+           "name":" CityMapper",
+           "id": "2",
+           "distance_cycled": 30001.21,
+           "last_journey": "2016-07-25T16:43:52"
+       }
+   ]
+}

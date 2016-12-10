@@ -1,0 +1,47 @@
+{
+  "name": "cpb-react-brunch-boilerplate",
+  "description": "CP+B ReactJS, Brunch Boilerplate",
+    "author": {
+    "name": "CP+B Technology",
+    "url": "https://github.com/cpbtechnology/"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cpbtechnology/US-CPB-BP-React-Brunch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cpbtechnology/US-CPB-BP-React-Brunch/issues"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "less-brunch": "^2.6.0",
+    "react": "~15.3.0",
+    "react-bootstrap": "^0.30.2",
+    "react-dom": "~15.3.0",
+    "react-router": "^2.6.1",
+    "sass-brunch": "^2.6.3",
+    "stylus-brunch": "^2.7.2"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "~6.0.0",
+    "babel-preset-es2015": "~6.9.0",
+    "babel-preset-react": "~6.11.1",
+    "brunch": "^2.4.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.0"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "keywords": [
+    "reactjs",
+    "bootstrap",
+    "brunch"
+  ]
+}
