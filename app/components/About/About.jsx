@@ -4,22 +4,16 @@ import { Link } from 'react-router'
 import { Button, Col, Row } from 'react-bootstrap'
 
 // Modules
-import HeroArea from '../HeroArea/HeroArea'
 import style from './about.styl'
 
 // Exports
 export default class About extends React.Component {
 	constructor(props) {
 		super(props);
-    this.jumboTxt = {
-      title : 'About this Boilerplate',
-      body : 'This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.'
-    }
 	}
 	render() {
     return (
       <div className={style.about} role="main">
-        <HeroArea titleTxt={this.jumboTxt.title} bodyTxt={this.jumboTxt.body} />
         <div className="container">
 
           <Row>
